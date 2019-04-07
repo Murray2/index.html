@@ -1,0 +1,156 @@
+/* Stylesheet */
+html {
+    background-image: url("images/Titan_low_res.bmp");
+    background-repeat: no-repeat;
+    background-color: #32333C;
+}
+
+body {
+    font-family: 'Laila', serif;
+    text-align: center;
+    padding: 0px;
+    margin: 20px 0px;
+}
+
+div {
+    background: rgb(255, 255, 255);
+    width: 790px;
+    padding: 10px 80px;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 4px 4px grey;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 70px;
+    padding: 10px 150px;
+    margin: auto;
+    text-align: center;
+    color: #32333C;
+    text-shadow: 1px 3px blue;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+h2 {
+    text-shadow: 1px 2px #32333C;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 22px;
+    text-align: left;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px 150px;
+    margin: auto;
+    text-align: center;
+    color: #32333C;
+    text-shadow: 1px 1px blue;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+li {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #32333C;
+}
+
+a:hover {
+    color: blue;
+}
+
+ul {
+    text-align: left;
+}
+
+iframe {
+    display: block;
+    background: #000;
+    border: none;
+    height: calc(100vh - 30px);
+    width: 100%;
+}
+
+button {
+    font-family: sans-serif;
+    font-size: 17px;
+    text-decoration: #32333C;
+    font-weight: bold;
+    text-shadow: 0.5px 0.4px blue;
+}
+
+.width {
+    width: 760px;
+}
+
+.main {
+    width: 100%;
+}
+
+.float {
+float: left;
+margin: 20px;
+}
+
+.color1 {
+    color: red;
+}
+
+.color2 {
+    color: green;
+}
+
+.color3 {
+    color: purple;
+}
+
+.links img:hover {
+    box-shadow: 2px 2px grey;
+}
+
+/* Style the tab */
+.tab {
+    padding: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: rgba(255, 255, 255, 0.8);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: skyblue;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-top: none;
+  }
